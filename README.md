@@ -6,8 +6,8 @@ Key points
 
 - Dual timing controls: a precision stopwatch and a configurable countdown timer.
 - Built with Vite + React and small utilities (`react-icons`, `clsx`).
-- Plain static CSS served from `public/styles.css` (no Tailwind at runtime).
-- All motion/animation code removed — no Framer Motion usage.
+- Plain static CSS served from `public/styles.css` .
+
 
 Quick start
 
