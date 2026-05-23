@@ -49,10 +49,4 @@ Project structure (important files)
 - `public/styles.css` — Plain CSS used by the app (linked in `index.html`)
 - `src/index.css` — legacy Tailwind file (kept as reference; not imported)
 
-Notes & troubleshooting
 
-- Styling: The app currently loads CSS from `public/styles.css` via a `<link>` in `index.html` to avoid PostCSS/Tailwind parsing issues encountered during development. If you want to re-enable Tailwind, remove the static stylesheet link, restore a CSS import in `src/main.jsx`, and ensure `postcss`/`tailwindcss` versions and config match your toolchain.
-
-- Animations: All animation/motion code has been intentionally removed. Do not reintroduce `framer-motion` unless you also add and test the required dependencies.
-
-- Build: A production build has been verified (`npm run build`) in this workspace.
